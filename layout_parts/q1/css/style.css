@@ -7,8 +7,35 @@
   clear: both;
 }
 
-.q1_contents {
+.q1_content {
   margin: 0 auto;
+  width: 940px;
   background-color: #eff3f4;
+  padding: 20px;
 }
+
+.q1_content_box{
+  float: left;
+  width: 270px;
+  top: 20px;
+  margin-left: 20px;
+  background-color: #3274ae;
+}
+
+.q1_content_box:first-child {
+  margin-left: 0;
+}
+
+.text {
+  box-sizing: border-box;
+  width: 230px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 10px solid #022336;
+  padding: 20px;
+  background-color: #eaf4ff;
+  margin: 20px;
+
+}
+
 /* 回答はここに書いてね */
