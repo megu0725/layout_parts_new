@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
+.q1_contents {
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
 /* 回答はここに書いてね */
