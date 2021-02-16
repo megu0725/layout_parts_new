@@ -24,7 +24,7 @@
   left: 10px;
 }
 
-.eight::before{
+.eight::before {
   content: '';
   width: 20px;
   height: 20px;
@@ -82,7 +82,7 @@
   z-index: 6;
 }
 
-.seven{
+.seven {
   background-color: #deae70;
   position: absolute;
   top: 200px;
