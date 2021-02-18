@@ -22,4 +22,58 @@
   background-color: #e6f2ff;
   margin: 0 auto;
 }
+
+.q6-2_outer {
+  display: table;
+}
+
+.pearent {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.child {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-flex {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.wish-center {
+  position: relative;
+}
+
+.wish-text {
+  width: 110px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.wish-tranceform {
+  position: relative;
+}
+
+.please {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
 /* 回答はここに書いてね */
