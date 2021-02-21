@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
+.text-content {
+  float: left;
+  box-sizing: border-box;
+  width: 255px;
+  font-size: 16px;
+  margin-left: 50px;
+}
+.text-content:first-child {
+  margin-left: 0px;
+}
 /* 回答はここに書いてね */
