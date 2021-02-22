@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* Q7-1回答 */
 .clearfix::after {
   content: "";
   display: block;
@@ -13,8 +14,69 @@
   width: 255px;
   font-size: 16px;
   margin-left: 50px;
+  word-break: break-all;
 }
 .text-content:first-child {
   margin-left: 0px;
+}
+/* Q7-2解答 */
+
+.table-content {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 50px 0;  
+}
+
+.table-in {
+  vertical-align: middle;
+  display: table-cell;
+  width: 225px;
+}
+
+.table-in:first-child {
+  border-spacing: 0px;
+}
+
+/* Q7-3解答 */
+.q7-3_pearent {
+  white-space: nowrap;
+}
+
+.q7-3_textbox {
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 50px;
+  font-size: 16px;
+  white-space: normal;
+}
+
+.q7-3_textbox:first-child {
+  margin-left: 0px;
+}
+
+/* Q7-4解答 */
+.q7-4_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7-4_text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Q7-5解答 */
+.q7-5_flexbox{
+  display: inline-block;
+  width: 300px;
+}
+
+.q7-5_variablebox {
+  display: inline-block;
+  margin-left: -200px;
 }
 /* 回答はここに書いてね */
