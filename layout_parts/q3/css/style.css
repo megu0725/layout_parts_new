@@ -5,42 +5,32 @@
   width: 100%;
   table-layout: fixed;
   border: solid #dedede 1px;
-  text-align: center;
   border-collapse: collapse;
+  text-align: center;
 }
 
-.header {
+.foods-record th {
   background-color: #2244aa;
   color: white;
   font-size: 18px;
   line-height: 26px;
   padding: 10px;
-}
-
-.header ,.foods {
   border: solid #dedede 1px;
-
 }
 
-.one-day:nth-child(odd) {
-  background-color: #ecf1f2;
-}
-
-.foods {
+.foods-record td{
+  border: solid #dedede 1px;
   padding: 10px;
   font-size: 16px;
   line-height: 22px;
-  /* border-right: solid #dedede 1px; */
-  /* border-bottom: solid #dedede 1px; */
 }
 
-.total-calorie {
+.foods-record tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.foods-record tbody tr:last-child {
   border-top: dashed #000 2px;
-}
-
-.calorie {
-  border-right: solid #dedede 1px;
-  padding: 10px;
 }
 
 
