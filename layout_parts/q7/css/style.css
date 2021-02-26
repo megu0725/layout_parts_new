@@ -70,13 +70,23 @@
 }
 
 /* Q7-5解答 */
-.q7-5_flexbox{
-  display: inline-block;
-  width: 300px;
+.InlineBlockBox {
+  font-size: 0px;
 }
 
-.q7-5_variablebox {
+.flexbox{
   display: inline-block;
-  margin-left: -200px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.variablebox {
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+
 }
 /* 回答はここに書いてね */
