@@ -24,22 +24,22 @@
 .table-content {
   display: table;
   border-collapse: separate;
-  border-spacing: 50px 0;  
 }
 
 .table-in {
   vertical-align: middle;
   display: table-cell;
   width: 225px;
+  padding-left: 50px;
 }
 
 .table-in:first-child {
-  border-spacing: 0px;
+  padding-left: 0;
 }
 
 /* Q7-3解答 */
 .q7-3_pearent {
-  white-space: nowrap;
+  font-size: 0;
 }
 
 .q7-3_textbox {
@@ -49,7 +49,6 @@
   box-sizing: border-box;
   margin-left: 50px;
   font-size: 16px;
-  white-space: normal;
 }
 
 .q7-3_textbox:first-child {
@@ -87,6 +86,10 @@
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
+}
 
+.flexbox,
+.variablebox {
+  vertical-align: middle; 
 }
 /* 回答はここに書いてね */
