@@ -8,6 +8,7 @@
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .q8-1_img {
