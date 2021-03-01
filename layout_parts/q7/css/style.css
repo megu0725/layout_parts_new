@@ -90,6 +90,6 @@
 
 .flexbox,
 .variablebox {
-  vertical-align: middle; 
+  vertical-align: top; 
 }
 /* 回答はここに書いてね */
